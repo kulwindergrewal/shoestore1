@@ -1,0 +1,24 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+.main_width
+{
+    width:1000px;
+}
+.center
+{
+    margin: 0 auto;    
+}
+header 
+{
+    height:10px;
+    background-color:darkblue;
+}
+.clear
+{
+    clear:both;
+    display: block;
+}
+
