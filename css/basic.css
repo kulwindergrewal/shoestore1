@@ -21,4 +21,13 @@ header
     clear:both;
     display: block;
 }
-
+h1
+{
+    margin: 50px 0px 40px;
+    background-color:lavender;
+    width:1000px;
+}
+input[type="button"]
+{
+    height:40px;
+}
