@@ -19,10 +19,15 @@ header img
 
     margin-top: 18px;
 }
+.menubar li
+{
+    list-style: none;
+    display: block;
+}
 
 .menubar a {
   float:right;
-    background-color:black;
+  background-color:black;
   color:white;
   text-align: center;
   padding: 10px 12px;
@@ -32,7 +37,12 @@ header img
   margin-left: 10px;
   -webkit-transition: 1s;
 }
-
+    a.cart
+{
+    background-color:white;
+    color: black;
+    
+}
 .menubar a:hover {
   background-color:antiquewhite;
   color: black;
@@ -51,50 +61,65 @@ header img
 .slider
 {
     border:5px solid darkblue;
-    width:700px;
+    height:310px;
+    margin: 2px;
 }
 .slider img
 {
-    width:700px;
-    height:315px;
+    width:690px;
+    height:310px;
     }
 .offer
 {
+    margin-top: -10px;
     width:280px;
     height:325px;
-
     margin-right: 10px;
+    text-align: center;
+}
+.offer h2 a
+{
+    background-color:black;
+    color:white;
+    padding: 0px 3px;
+    font-size: 21px;
+}
+.offer h2 a:hover
+{
+    background-color:darkblue;
 }
 .offer img
 {
-     -webkit-transition: 1s;
-    width:200px;
-    height:200px;
+    -webkit-transition: 1.4s;
+    width:180px;
+    height:180px;
     border-radius:250px;
-      border:3px solid white;
+    border:10px solid white;
 }
 .offer img:hover
 {
-    border:3px solid black;
+    border:10px solid black;
 }
 #slider_section .slider, .offer
 {
     float: left;
 }
-p
-{
-    text-align: justify;
- padding-top:40px;
-    font-size:20px;
-    
 
+
+/*--- third main section style --- */
+
+#m_h
+{
+   margin-top:40px; 
 }
+
+
 /*- hot product section ---*/
 
 #hot 
 {
     
-    padding-top:38px;
+    padding-top:20px;
 }
 #hot div
 {
@@ -111,11 +136,12 @@ p
     color: aliceblue;
     border-radius: 3px;
 }
-#HOT LI 
+#hot li
 {
-        BORDER:2PX SOLID GREY;
+    BORDER:2PX SOLID GREY;
     padding: 3PX; 
     margin-bottom: 5px;
+    width:215px;
 
 }
 #hot li img
@@ -123,7 +149,10 @@ p
    
     width:215px;
     height:190px;
+    border-bottom: 1px solid grey;
+    margin-top: 2px;
 
+      
 }
 #hot a:hover
 {
@@ -138,61 +167,37 @@ p
         margin-bottom: 10px;
 
 }
-    #hot .hot_slogan
-{
- }
 
 
-.hot_slogan
-{
-    width: 180px;
-}
-#slo img
-{
-    width:200px;
-    padding-top: 25px;
-    
-}
-/* -- about us section -- */
-#about_us
-{
-    margin-top: 40px;
+/* -- about us section and uper body p section */
 
-}
-.info 
-{
-    width:700px;
-    height:200px;
 
-}
-    .info h1
-{
-    font-size:25px;
-    color: white;
-    text-align: center;
-    background-color:black;
-}
-#about_us 
+#about_us , #m_h
 {
     background-color:burlywood;
-    height:180px;
-    padding: 20px;
     text-align:justify;
     font-size:20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px black;
+
 }
-#about_us div
+.info
+{
+    width:700px;
+}
+
+.info, .a_img
 {
     float: left;
+    margin-left: 30px;
 }
 
-#about_us .about_img 
-{
-    margin-left: 20px;
 
-}
-#about_us img
+.a_img
 {
-    width: 280px;
+    border-radius: 10px;
+    width: 220px;
 }
 
 
